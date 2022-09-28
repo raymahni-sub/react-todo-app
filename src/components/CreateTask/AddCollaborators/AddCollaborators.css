@@ -1,0 +1,31 @@
+.Add-collaborators .Title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #5f6388;
+}
+
+.Add-collaborators .Collaborators-list .List-item {
+  margin-right: 1rem;
+  border-radius: 1rem;
+  padding: 0.3rem;
+}
+
+.Add-collaborators .Collaborators-list .List-item img {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.Add-collaborators .Add-new-collaborator .Add-button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  background: #4ba7a8;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+.Add-collaborators .Add-new-collaborator .Add-button svg {
+  margin-top: 0.5rem;
+}
