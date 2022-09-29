@@ -5,6 +5,7 @@
   color: #fff;
   background: #4ba8a8;
   border: none;
+  cursor: pointer;
 }
 
 .Base-button button:disabled,

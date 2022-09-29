@@ -10,6 +10,7 @@ import { GrDocumentText, GrCopy } from "react-icons/gr";
 // Component Imports
 import BaseDivider from "../../base/BaseDivider/BaseDivider";
 
+// Single Stat Item
 const StatItem = (props) => (
   <div className="Stat-item">
     {/* Stats Header */}
@@ -43,6 +44,7 @@ const StatItem = (props) => (
 
 function TaskStats() {
   return (
+    // Stats Grid
     <div className="Task-stats grid-container">
       <StatItem
         littleGraph={littleGraphGreen}
