@@ -8,7 +8,11 @@ function BaseInput(props) {
       }`}
     >
       {props.hideTitle ? null : <p className="Title">{props.title}</p>}
-      <input placeholder={props.placeholder} />
+      {/* Emitting the input value on input */}
+      <input
+        placeholder={props.placeholder}
+        onInput={(e) => props.emitInput(e.target.value)}
+      />
     </div>
   );
 }

@@ -5,12 +5,13 @@ import React from "react";
 import Chart from "react-apexcharts";
 
 function TaskLineChart() {
+  // Line Chart Data and Config
   const lineChartData = {
     options: {
       chart: {
         id: "basic-bar",
         width: "100%",
-        height: "100%",
+        height: 400,
         toolbar: {
           show: false,
         },
@@ -60,6 +61,7 @@ function TaskLineChart() {
 
   return (
     <div className="Line-chart-card">
+      {/* Line Chart Header */}
       <div className="Line-chart-header d-flex justify-between align-center m-b-6">
         <h2 className="text-green">Task Done</h2>
         <div className="Line-chart-filter d-flex">
@@ -69,11 +71,13 @@ function TaskLineChart() {
         </div>
       </div>
 
+      {/* Line Chart */}
       <div className="Line-chart">
         <Chart
           options={lineChartData.options}
           series={lineChartData.series}
           type="line"
+          height="300"
         />
       </div>
     </div>
